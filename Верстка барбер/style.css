@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 2600px;
+	height: 100vh;
+	font-family: 'PT Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+#top_head{
+
+	width: 100%;
+	height: 72px;
+	background-color: #000000;
+	display: flex;
+}
+#top_nav{
+	width: 100%;
+	display: flex;
+}
+#top_nav ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#top_nav  a{
+	font-size: 25px;
+	color: white;
+	margin-left: 42px;
+	padding: 18px 18px;
+
+
+}
+#top_nav  a:hover{
+	background-color: #242424;
+
+}
+#top_nav  li:nth-child(6n){
+	padding-left: 200px;
+
+
+}
+#top_nav img{
+	margin-left: 150px;
+}
+main{
+	width: 100%;
+	height: 1600px;
+	background-image: url(img/Layer.png);
+}
+.top_box{
+	width: 80%;
+	margin: 0 auto;
+
+
+}
+.top_box_img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 130px;
+}
+.top_container{
+	width: 100%;
+	display: flex;
+}
+.top_section{
+	width: 35%;
+	text-align: center;
+	justify-content:center;
+	margin-top: 60px;
+	
+	
+
+}
+.top_section h2{
+	color: white;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+.top_section p{
+	margin-top: 26px;
+	font-size:18px;
+	color: white;
+
+}
+.midle_box{
+	width: 80%;
+	height: 425px;
+	background-color: white;
+	margin:0 auto;
+	margin-top: 85px;
+	display: flex;
+}
+.article_left{
+	width: 50%;
+	height: 100%;
+
+}
+
+.article_left h3{
+	font-size:30px;
+	margin-bottom: 34px;
+	margin-left: 70px;
+	padding-top:30px;
+}
+.article_left p{
+	font-size:18px;
+	margin-left: 80px;
+	font-weight: bold;
+}
+.article_left p:nth-child(odd){
+	font-weight: bold;
+}
+.article_left p:nth-child(3n){
+	margin-bottom: 36px;
+}
+
+.link_news{
+	margin-top: 36px;
+	margin-left: 80px;
+}
+.article_left a{
+	background-color: black;
+	color: white;
+	padding: 18px 34px;
+	font-size:16px
+  
+}
+.article_right{
+	width: 50%;
+	height: 100%;
+
+}
+.article_right h3{
+	font-size:30px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.img_midle{
+	margin-top: 30px;
+	margin-left: 70px;
+	width: 350px;
+	height: 160px;
+
+}
+.button_midle button{
+	background-color: black;
+	border: none;
+	color: white;
+	font-size:16px;
+	font-weight: bold;
+	padding: 18px 34px;
+	margin-top: 47px;
+	margin-right: 20px;
+	margin-left: 70px;
+	cursor: pointer;
+
+}
+
+.contact_record{
+	width: 80%;
+	height: 425px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 37px;
+	display: flex;
+}
+.contact_box{
+	width: 50%;
+}
+.top_p{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top:26px;
+	margin-bottom: 26px;
+	margin-left: 70px;
+}
+.conent_p{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 32px;
+	margin-left: 80px;
+}
+.link_contact{
+	margin-left: 80px;
+}
+.link_contact a{
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	padding: 12px 24px;
+    margin-right: 20px;
+
+
+}
+.record{
+	width: 50%;
+}
+.form{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 70px;
+
+}
+.form p{
+	font-weight: bold;
+}
+.form input{
+	width: 80%;
+	height: 30px;
+	border:2px solid black;
+	margin-top:13px;
+	margin-bottom:13px;
+}
+.link_form{
+     margin-top: 20px;
+	margin-left: 80px;
+}
+.record a{
+	background-color: black;
+	color:white;
+	font-size: 16px;
+	padding:  15px  120px;
+}
+
+
+footer{
+	width: 100%;
+	height: 180px;
+	background-image: url(img/Layer-23.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+
+
+}
+.wrapper_inner{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+
+	
+
+}
+.footer_box_one{
+	width: 33%;
+	margin-top: 38px;
+}
+.footer_box_one p{
+	color: white;
+	font-size: 16px;
+
+}
+.footer_box_one a{
+	font-size: 20px;
+	color: white;
+	text-decoration:underline;
+}
+.footer_box_two{
+	width: 33%;
+	margin-top: 38px;
+	text-align: center;
+
+}
+.footer_box_two p{
+	color: white;
+	font-size:16px;
+	font-weight: bold;
+}
+.footer_box_two img{
+	margin-top: 15px;
+	margin-right: 15px;
+
+}
+.footer_box_two a:hover{
+	background-color: white;
+}
+.footer_box_free{
+	width: 33%;
+	margin-top: 38px;
+	text-align:right;
+}
+.footer_box_free p{
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	margin-bottom:25px;
+	margin-right: 35px;
+
+}
+.footer_box_free a{
+	background: black;
+	color: white;
+	font-size: 16px;
+	padding:15px 48px;
+
+}
+@media screen and (max-width: 1300px){
+   
+   #top_nav  li:nth-child(6n){
+	padding-left: 100px;
+
+}	
+
+@media screen and (max-width: 820px)
